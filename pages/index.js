@@ -4,7 +4,9 @@ import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import Testimonials from '../components/Testimonials'
 import { motion, useScroll } from "framer-motion"
+import Achievments from '@/components/Achievments'
 import Education from '@/components/Education'
+import ContactUs from '@/components/ContactUs'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -38,7 +40,9 @@ export default function Home() {
         </div>
       </section>
       <Education></Education>
+      <Achievments></Achievments>
       <Testimonials />
+      <ContactUs/>
     </>
 
   )
