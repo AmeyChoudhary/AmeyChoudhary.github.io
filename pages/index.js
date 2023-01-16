@@ -3,10 +3,13 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import Testimonials from '../components/Testimonials'
+import { motion, useScroll } from "framer-motion"
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  const { scrollYProgress } = useScroll();
+
   return (
     <>
       <Head>
@@ -15,7 +18,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <section className="text-gray-600 body-font">
+
+      <section className="text-gray-600 body-font h-fu">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Dr. Ashmeet Choudhary
