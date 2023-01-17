@@ -5,9 +5,8 @@ import { motion, useScroll } from "framer-motion";
 import * as THREE from "three";
 import { useEffect } from 'react';
 import { AnimatePresence } from 'framer-motion'
-// import AOS from 'aos';
-// import 'aos/dist/aos.css';
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+import Image from 'next/image';
+
 function MyApp({ Component, pageProps, router }) {
   // AOS.init();
   return (
@@ -37,10 +36,11 @@ export default function App({ Component, pageProps }) {
 
   return (<>
     <motion.div
-      className='sticky top-0 left-0 right-0 h-1 bg-indigo-500 origin-left'
+      className='fixed top-0 bg-indigo-900 left-0 right-0 h-2  origin-left z-10'
       style={{ scaleX: scrollYProgress }}
-    ></motion.div>
-    <Navbar className="sticky" />
+    >
+    </motion.div>
+    <Navbar />
     <Component {...pageProps} />
     <Footer />
   </>)
