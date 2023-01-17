@@ -35,10 +35,11 @@ const Home = (props) => {
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Dr.Ashmeet Choudhary
                         <br className="hidden lg:inline-block text-sm" />
                     </h1>
-                    <p className="mb-8 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quae recusandae dicta harum, aperiam commodi maiores voluptate iure ab iste dolorum culpa blanditiis numquam cupiditate distinctio vero excepturi ipsa sapiente?</p>
+                    <p className="mb-8 text-bold leading-relaxed">Dr Ashmeet Choudhary is a Gastroenterologist having vast experience of 20+ years in gastroenterology. He did his DM from AIIMS Delhi. He is currently working in Apollo Hospitals Indore.
+                    </p>
                     <div className="flex justify-center">
-                        <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-                        <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+                        <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Proceed</button>
+                        <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Contact Me</button>
                     </div>
                 </div>
                 <div className="mt-44 lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
