@@ -19,9 +19,9 @@ const Education = () => {
 
 
             // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-            offset: 120, // offset (in px) from the original trigger point
+            offset: 250, // offset (in px) from the original trigger point
             delay: 300, // values from 0 to 3000, with step 50ms
-            duration: 400, // values from 0 to 3000, with step 50ms
+            duration: 500, // values from 0 to 3000, with step 50ms
             easing: 'ease', // default easing for AOS animations
             once: false, // whether animation should happen only once - while scrolling down
             mirror: false, // whether elements should animate out while scrolling past them
@@ -40,8 +40,7 @@ const Education = () => {
                     <div className="flex flex-wrap -m-4">
 
 
-                        <motion.div data-aos="flip-left" className="p-4 lg:w-1/3" whileHover={{ scale: 1.1, padding: '4px 4px' }} >
-
+                        <motion.div data-aos="fade-right" className="p-4 lg:w-1/3" whileHover={{ scale: 1.1 }} >
                             <motion.div whileHover={{ border: '3px solid purple', borderRadius: '30px' }} className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
                                 <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Raclette Blueberry Nextious Level</h1>
@@ -68,7 +67,7 @@ const Education = () => {
                             </motion.div>
                         </motion.div>
 
-                        <motion.div className="p-4 lg:w-1/3 " whileHover={{ scale: 1.1 }}  >
+                        <motion.div data-aos="fade-up" className="p-4 lg:w-1/3 " whileHover={{ scale: 1.1  }}  >
                             <motion.div whileHover={{ border: '3px solid purple', borderRadius: '30px' }} className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
                                 <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Ennui Snackwave Thundercats</h1>
@@ -94,7 +93,7 @@ const Education = () => {
                                 </div>
                             </motion.div>
                         </motion.div>
-                        <motion.div className="p-4 lg:w-1/3 " whileHover={{ scale: 1.1 }}  >
+                        <motion.div data-aos="fade-left"className="p-4 lg:w-1/3 " whileHover={{ scale: 1.1 }}  >
                             <motion.div whileHover={{ border: '3px solid purple', borderRadius: '30px' }} className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
                                 <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Selvage Poke Waistcoat Godard</h1>
