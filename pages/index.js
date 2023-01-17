@@ -11,6 +11,7 @@ import Home from '@/components/Home'
 import ContactUs2 from '@/components/ContactUs2'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import Navbar from '@/components/Navbar'
 // ..
 // import { MyComponent } from '@/components/Vanta_cells'
 // import { VANTA } from 'vanta'
@@ -32,7 +33,7 @@ export default function Index() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+<Navbar ></Navbar>
       <Home />
       <Education data-aos="fade-in"></Education>
       <Achievments></Achievments>

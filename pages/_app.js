@@ -40,7 +40,7 @@ export default function App({ Component, pageProps }) {
       style={{ scaleX: scrollYProgress }}
     >
     </motion.div>
-    <Navbar />
+    {/* <Navbar /> */}
     <Component {...pageProps} />
     <Footer />
   </>)
