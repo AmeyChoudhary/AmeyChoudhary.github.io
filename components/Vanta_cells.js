@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import BIRDS from "vanta/dist/vanta.birds.min";
-import * as THREE from "three";
 
 export const MyComponent = (props) => {
     const [vantaEffect, setVantaEffect] = useState(0);
@@ -10,7 +9,7 @@ export const MyComponent = (props) => {
         if (!vantaEffect) {
             setVantaEffect(
                 BIRDS({
-                    el: props.id,
+                    el: vantaRef,
                     THREE: THREE,
                     mouseControls: true,
                     touchControls: true,
