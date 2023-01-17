@@ -7,12 +7,13 @@ import { motion, useScroll } from "framer-motion"
 import Achievments from '@/components/Achievments'
 import Education from '@/components/Education'
 import ContactUs from '@/components/ContactUs'
+import { MyComponent } from '@/components/Vanta_cells'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   const { scrollYProgress } = useScroll();
-
+  const Van = 'fuck';
   return (
     <>
       <Head>
@@ -23,7 +24,7 @@ export default function Home() {
       </Head>
 
       <section className="text-gray-600 body-font h-fu">
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div id={Van} className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Dr. Ashmeet Choudhary
               <br className="hidden lg:inline-block text-sm" />(MBBS , MD , DM (Gastroentrologist, AIIMS-Delhi))
@@ -39,10 +40,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* <Home></Home> */}
       <Education></Education>
       <Achievments></Achievments>
       <Testimonials />
-      <ContactUs/>
+      <div id="fuck"></div>
+      <ContactUs />
     </>
 
   )
