@@ -19,10 +19,7 @@ const Home = (props) => {
                     gyroControls: false,
                     minHeight: 200.00,
                     minWidth: 200.00,
-                    scale: 1.00,
-                    color1: 0x2a4c89,
-                    color2: 0x8aabd4,
-                    size: 4.90
+                    scale: 1.00
                 }))
         }
         return () => {

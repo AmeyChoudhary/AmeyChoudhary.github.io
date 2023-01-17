@@ -8,6 +8,7 @@ import Achievments from '@/components/Achievments'
 import Education from '@/components/Education'
 import ContactUs from '@/components/ContactUs'
 import Home from '@/components/Home'
+import ContactUs2 from '@/components/ContactUs2'
 // import { MyComponent } from '@/components/Vanta_cells'
 // import { VANTA } from 'vanta'
 
@@ -30,7 +31,7 @@ export default function Index() {
       <Achievments></Achievments>
       <Testimonials />
       <div id="fuck"></div>
-      <ContactUs />
+      <ContactUs2 />
     </>
 
   )
