@@ -2,9 +2,10 @@ import React from 'react'
 
 const Achievments = () => {
     return (
-
+        
         <section className="text-gray-600 body-font ">
             <div className="container px-5 py-24 mx-auto">
+            <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center">Achievments</h1>
                 <div className="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
                     <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
                         <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24">
