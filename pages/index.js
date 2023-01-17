@@ -9,14 +9,21 @@ import Education from '@/components/Education'
 import ContactUs from '@/components/ContactUs'
 import Home from '@/components/Home'
 import ContactUs2 from '@/components/ContactUs2'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
 // import { MyComponent } from '@/components/Vanta_cells'
 // import { VANTA } from 'vanta'
 
 const inter = Inter({ subsets: ['latin'] })
 
+// AOS.init({
+//   offset: 120,
+//   delay: 100,
+//   duration: 1000
+// })
 export default function Index() {
   const { scrollYProgress } = useScroll();
-  const Van = 'cells';
   return (
     <>
       <Head>
@@ -25,12 +32,11 @@ export default function Index() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-   
+
       <Home />
-      <Education></Education>
+      <Education data-aos="fade-in"></Education>
       <Achievments></Achievments>
       <Testimonials />
-      <div id="fuck"></div>
       <ContactUs2 />
     </>
 
