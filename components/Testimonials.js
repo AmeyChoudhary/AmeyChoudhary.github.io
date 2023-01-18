@@ -40,19 +40,6 @@ const Testimonials = () => {
 
             <div data-aos="fade-right" className="lg:w-1/3 lg:mb-0 mb-6 p-4">
               <div className="h-full text-center">
-                {/* <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="../public/amey.jpeg" /> */}
-                <Image width={40} height={30} className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100 object-cover object-center rounded-[50%]" alt="hero" src="/amey.jpg" />
-              
-                <p className="leading-relaxed">Not only the best Docter But the Best Dad ever . <br></br>Happy Birthday Papa !!!!!</p>
-                <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4" />
-                <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">AMEY CHOUDHARY</h2>
-                <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">19</h2>
-                
-                <p className="text-gray-500">STUDENT</p>
-              </div>
-            </div>
-            <div data-aos="fade-up" className="lg:w-1/3 lg:mb-0 mb-6 p-4">
-              <div className="h-full text-center">
                 <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://dummyimage.com/300x300" />
                 <p className="leading-relaxed">I am Premanshu Garg from Indore & My treatment has been going on for 1 year, and I feel comfortable with the Dr Ashmeet Choudhary Gastroenterologist in INDORE(M.P) and I am more than satisfied with his work .</p>
                 <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4" />
@@ -60,6 +47,20 @@ const Testimonials = () => {
                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">43</h2>
                 <p className="text-gray-500">BUSINESSMAN</p>
               </div>
+            </div>
+            <div data-aos="fade-up" className="lg:w-1/3 lg:mb-0 mb-6 p-4">
+              <div className="h-full text-center">
+                {/* <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="../public/amey.jpeg" /> */}
+                <Image width={40} height={30} className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100 object-cover object-center rounded-[50%]" alt="hero" src="/amey.jpg" />
+
+                <p className="leading-relaxed">Not only the best Docter But the Best Dad ever . <br></br>Happy Birthday Papa !!!!!</p>
+                <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4" />
+                <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">AMEY CHOUDHARY</h2>
+                <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">19</h2>
+
+                <p className="text-gray-500">STUDENT</p>
+              </div>
+
             </div>
             <div data-aos="fade-left" className="lg:w-1/3 lg:mb-0 p-4">
               <div className="h-full text-center">

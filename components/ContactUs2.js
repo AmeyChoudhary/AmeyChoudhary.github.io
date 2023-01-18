@@ -108,7 +108,7 @@ const ContactUs2 = () => {
                             <p className="mt-1">Apollo Hospitals - Cancer Hospital In Indore - Hospitals In Indore
                                 Sector-D, Scheme No 74C, Vijay Nagar, Indore, Madhya Pradesh 452010</p>
                             <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
-                            <a className="text-indigo-500 leading-relaxed">example@email.com</a>
+                            <a className="text-indigo-500 leading-relaxed">hiashmeet@yahoo.in</a>
 
                         </div>
                         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -117,7 +117,7 @@ const ContactUs2 = () => {
                             <p className="mt-1">04:00 - 07:00 PM</p>
 
                             <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
-                            <p className="leading-relaxed">123-456-7890</p>
+                            <p className="leading-relaxed"> +91-9826803579</p>
                         </div>
 
                     </div>
@@ -127,7 +127,7 @@ const ContactUs2 = () => {
                         <div>
 
                             <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
-                            <p className="leading-relaxed mb-5 text-gray-600">Post-ironic portland shabby chic echo park, banjo fashion axe</p>
+                            <p className="leading-relaxed mb-5 text-gray-600">Any type of feedback or suggestion is always Welcome </p>
                             <div className="relative mb-4">
                                 <label htmlFor="name" className="leading-7 text-sm text-gray-600">Name</label>
                                 <input type="text" onChange={Changehuya} id="name" name="name" value={Name} className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />

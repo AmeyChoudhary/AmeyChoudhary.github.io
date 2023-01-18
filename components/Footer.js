@@ -37,6 +37,9 @@ const Footer = () => {
       </a>
     </span>
   </div>
+  <span id='love' >
+  Made with ♥ by Amey 
+   </span>
 </footer>
   )
 }
