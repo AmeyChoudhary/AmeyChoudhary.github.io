@@ -96,24 +96,25 @@ const ContactUs2 = () => {
     }, [])
 
     return (
-        <div><section className="text-gray-600 body-font relative">
-            <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center">Feedback</h1>
-            <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+        <div id='feedback' className='mt-[50px] pt-[50px]'><section className="text-gray-600 body-font relative">
+            <h1 class="my-10 text-3xl font-medium title-font text-gray-900 mb-12 text-center">Feedback</h1>
+            <div className=" container px-5 mx-auto flex sm:flex-nowrap flex-wrap">
                 <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
                     <iframe data-aos="fade-right" className=" gmap_iframe absolute inset-0" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no" src="https://maps.google.com/maps?width=590&height=400&hl=en&q=apollo hospital indore&t=&z=13&ie=UTF8&iwloc=B&output=embed" style={{ filter: ' contrast(1.2) opacity(0.7)' }}> </iframe>                    <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
 
 
                         <div className="lg:w-1/2 px-6">
                             <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
-                            <p className="mt-1">Photo booth tattooed prism, portland taiyaki hoodie neutra typewriter</p>
+                            <p className="mt-1">Apollo Hospitals - Cancer Hospital In Indore - Hospitals In Indore
+                                Sector-D, Scheme No 74C, Vijay Nagar, Indore, Madhya Pradesh 452010</p>
                             <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
                             <a className="text-indigo-500 leading-relaxed">example@email.com</a>
 
                         </div>
                         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                             <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">Timmings</h2>
-                            <p className="mt-1">00:00 - 00:00 AM</p>
-                            <p className="mt-1">00:00 - 00:00 PM</p>
+                            <p className="mt-1">09:00 - 11:59 AM</p>
+                            <p className="mt-1">04:00 - 07:00 PM</p>
 
                             <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
                             <p className="leading-relaxed">123-456-7890</p>
@@ -125,7 +126,7 @@ const ContactUs2 = () => {
                     <form ref={form} onSubmit={sendEmail}>
                         <div>
 
-                            <h2  className="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
+                            <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
                             <p className="leading-relaxed mb-5 text-gray-600">Post-ironic portland shabby chic echo park, banjo fashion axe</p>
                             <div className="relative mb-4">
                                 <label htmlFor="name" className="leading-7 text-sm text-gray-600">Name</label>

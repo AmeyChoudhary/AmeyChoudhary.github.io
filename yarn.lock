@@ -77,9 +77,14 @@
   "resolved" "https://registry.npmjs.org/@next/font/-/font-13.1.2.tgz"
   "version" "13.1.2"
 
-"@next/swc-darwin-arm64@13.1.2":
-  "integrity" "sha512-RikoQqy109r2222UJlyGs4dZw2BibkfPqpeFdW5JEGv+L2PStlHID8DwyVYbmHfQ0VIBGvbf/NAUtFakAWlhwg=="
-  "resolved" "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-13.1.2.tgz"
+"@next/swc-linux-x64-gnu@13.1.2":
+  "integrity" "sha512-TsLsjZwUlgmvI42neTuIoD6K9RlXCUzqPtvIClgXxVO0um0DiZwK+M+0zX/uVXhMVphfPY2c5YeR1zFSIONY4A=="
+  "resolved" "https://registry.npmjs.org/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-13.1.2.tgz"
+  "version" "13.1.2"
+
+"@next/swc-linux-x64-musl@13.1.2":
+  "integrity" "sha512-eSkyXgCXydEFPTkcncQOGepafedPte6JT/OofB9uvruucrrMVBagCASOuPxodWEMrlfEKSXVnExMKIlfmQMD7A=="
+  "resolved" "https://registry.npmjs.org/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-13.1.2.tgz"
   "version" "13.1.2"
 
 "@nodelib/fs.scandir@2.1.5":
@@ -309,11 +314,6 @@
     "tslib" "^2.4.0"
   optionalDependencies:
     "@emotion/is-prop-valid" "^0.8.2"
-
-"fsevents@~2.3.2":
-  "integrity" "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA=="
-  "resolved" "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
-  "version" "2.3.2"
 
 "function-bind@^1.1.1":
   "integrity" "sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A=="
@@ -570,6 +570,11 @@
   "integrity" "sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA=="
   "resolved" "https://registry.npmjs.org/quick-lru/-/quick-lru-5.1.1.tgz"
   "version" "5.1.1"
+
+"react-anchor-link-smooth-scroll@^1.0.12":
+  "integrity" "sha512-aaY+9X0yh8YnC0jBfoTKpsiCLdO/Y6pCltww+VB+NnTBPDOvnIdnp1AlazajsDitc1j+cVSQ+yNtaVeTIMQbxw=="
+  "resolved" "https://registry.npmjs.org/react-anchor-link-smooth-scroll/-/react-anchor-link-smooth-scroll-1.0.12.tgz"
+  "version" "1.0.12"
 
 "react-dom@^18.0.0", "react-dom@^18.2.0", "react-dom@18.2.0":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="

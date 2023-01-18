@@ -6,6 +6,11 @@ import * as THREE from "three";
 import { useEffect } from 'react';
 import { AnimatePresence } from 'framer-motion'
 import Image from 'next/image';
+<div>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet" />
+</div>
 
 function MyApp({ Component, pageProps, router }) {
   // AOS.init();
@@ -35,7 +40,7 @@ export default function App({ Component, pageProps }) {
   }, [])
 
   return (<>
-    <motion.div
+    <motion.div id='rollingbar'
       className='fixed top-0 bg-indigo-900 left-0 right-0 h-2  origin-left z-10'
       style={{ scaleX: scrollYProgress }}
     >

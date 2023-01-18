@@ -5,7 +5,13 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        IBM: ["IBM Plex Mono", 'monospace'],
+        Acme:["IBM Plex Mono", 'monospace'],
+        Haha:['Cinzel', 'serif']
+      }
+    }
   },
   plugins: [],
 }

@@ -30,7 +30,7 @@ const Achievments = () => {
     }, [])
     return (
 
-        <section className="text-gray-600 body-font ">
+        <section id='achievments' className="text-gray-600 body-font ">
             <div className="container px-5 py-24 mx-auto">
                 <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center">Achievments</h1>
                 <motion.div data-aos="slide-up" whileHover={{ scale: 1.2 }} className="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
@@ -40,8 +40,8 @@ const Achievments = () => {
                         </svg>
                     </motion.div>
                     <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-                        <h2 className="text-gray-900 text-lg title-font font-medium mb-2">Shooting Stars</h2>
-                        <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                        <h2 className="text-gray-900 text-lg title-font font-medium mb-2">President</h2>
+                        <p className="leading-relaxed text-base">The Gasto Club , a wideknown assoiciation of Gastroenterologist across India</p>
                         <a className="mt-3 text-indigo-500 inline-flex items-center">Learn More
                             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7" />
@@ -51,9 +51,9 @@ const Achievments = () => {
                 </motion.div>
                 <motion.div data-aos="slide-up" whileHover={{ scale: 1.2 }} className="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
                     <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-                        <h2 className="text-gray-900 text-lg title-font font-medium mb-2">The Catalyzer</h2>
-                        <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-                        <a className="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                        <h2 className="text-gray-900 text-lg title-font font-medium mb-2">Endoscopies</h2>
+                        <p className="leading-relaxed text-base">Dr. Ashmeet has performed 1000+ successful endoscopies </p>
+                        <a href='https://www.nhs.uk/conditions/endoscopy/#:~:text=An%20endoscopy%20is%20a%20test,endoscopy%20unit%20in%20a%20hospital.' className="mt-3 text-indigo-500 inline-flex items-center">Learn More
                             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7" />
                             </svg>
@@ -75,8 +75,8 @@ const Achievments = () => {
                         </svg>
                     </motion.div>
                     <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-                        <h2 className="text-gray-900 text-lg title-font font-medium mb-2">The 400 Blows</h2>
-                        <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                        <h2 className="text-gray-900 text-lg title-font font-medium mb-2">Patients</h2>
+                        <p className="leading-relaxed text-base">Dr. Choudhary has treated more than 30,000 patients in his career </p>
                         <a className="mt-3 text-indigo-500 inline-flex items-center">Learn More
                             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7" />
