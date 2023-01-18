@@ -74,8 +74,8 @@ const ContactUs2 = () => {
             // Global settings:
             disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
             startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
-            initClassName: 'aos-init', // class applied after initialization
-            animatedClassName: 'aos-animate', // class applied on animation
+            initClassName: 'aos-init', // className applied after initialization
+            animatedClassName: 'aos-animate', // className applied on animation
             useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
             disableMutationObserver: false, // disables automatic mutations' detections (advanced)
             debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
@@ -97,10 +97,10 @@ const ContactUs2 = () => {
 
     return (
         <div id='feedback' className='mt-[50px] pt-[50px]'><section className="text-gray-600 body-font relative">
-            <h1 class="my-10 text-3xl font-medium title-font text-gray-900 mb-12 text-center">Feedback</h1>
+            <h1 className="my-10 text-3xl font-medium title-font text-gray-900 mb-12 text-center">Feedback</h1>
             <div className=" container px-5 mx-auto flex sm:flex-nowrap flex-wrap">
                 <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-                    <iframe data-aos="fade-right" className=" gmap_iframe absolute inset-0" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no" src="https://maps.google.com/maps?width=590&height=400&hl=en&q=apollo hospital indore&t=&z=13&ie=UTF8&iwloc=B&output=embed" style={{ filter: ' contrast(1.2) opacity(0.7)' }}> </iframe>                    <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+                    <iframe data-aos="fade-right" className=" gmap_iframe absolute inset-0" width="100%" height="100%" frameBorder="0" marginHeight="0" marginWidth="0" title="map" scrolling="no" src="https://maps.google.com/maps?width=590&height=400&hl=en&q=apollo hospital indore&t=&z=13&ie=UTF8&iwloc=B&output=embed" style={{ filter: ' contrast(1.2) opacity(0.7)' }}> </iframe>                    <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
 
 
                         <div className="lg:w-1/2 px-6">
@@ -138,7 +138,7 @@ const ContactUs2 = () => {
                             </div>
                             <div className="relative mb-4">
                                 <label htmlFor="message" className="leading-7 text-sm text-gray-600">Message</label>
-                                <textarea id="message" onChange={Changehuya} name="message" value={Message} className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" defaultValue={""} />
+                                <textarea id="message" onChange={Changehuya} name="message" value={Message} className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" />
                             </div>
                             <button id='sendbtn' onClick={sendEmail} className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">{Btn}</button>
                             <p className="text-xs text-gray-500 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.</p>

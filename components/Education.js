@@ -10,8 +10,8 @@ const Education = () => {
             // Global settings:
             disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
             startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
-            initClassName: 'aos-init', // class applied after initialization
-            animatedClassName: 'aos-animate', // class applied on animation
+            initClassName: 'aos-init', // className applied after initialization
+            animatedClassName: 'aos-animate', // className applied on animation
             useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
             disableMutationObserver: false, // disables automatic mutations' detections (advanced)
             debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
@@ -39,7 +39,7 @@ const Education = () => {
             <div className='mt-[250px]'>
                 <section className="text-gray-600 body-font">
                     <div className="container px-5 py-24 mx-auto">
-                        <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center">Education</h1>
+                        <h1 className="text-3xl font-medium title-font text-gray-900 mb-12 text-center">Education</h1>
                         <div className="flex flex-wrap -m-4">
 
 

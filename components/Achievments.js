@@ -8,8 +8,8 @@ const Achievments = () => {
             // Global settings:
             disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
             startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
-            initClassName: 'aos-init', // class applied after initialization
-            animatedClassName: 'aos-animate', // class applied on animation
+            initClassName: 'aos-init', // className applied after initialization
+            animatedClassName: 'aos-animate', // className applied on animation
             useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
             disableMutationObserver: false, // disables automatic mutations' detections (advanced)
             debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
@@ -32,7 +32,7 @@ const Achievments = () => {
 
         <section id='achievments' className="text-gray-600 body-font ">
             <div className="container px-5 py-24 mx-auto">
-                <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center">Achievments</h1>
+                <h1 className="text-3xl font-medium title-font text-gray-900 mb-12 text-center">Achievments</h1>
                 <motion.div data-aos="slide-up" whileHover={{ scale: 1.2 }} className="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
                     <motion.div whileHover={{ border: "3px solid purple", padding: "3px 3px" }} className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
                         <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24">
